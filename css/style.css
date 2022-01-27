@@ -518,13 +518,11 @@ a {
     width: 245px;
 }
 
-.swiper {
-    
-    
+.slider {
     padding: 200px 0 250px 0;
 }
 
-.swiper-wrapper {
+.slider-wrapper {
     padding-bottom: 100px;
 }
 
@@ -588,12 +586,26 @@ a {
     color: rgba(255, 253, 253, 0.55);
     margin: 0;
 }
-
-.swiper-button-prev 
-.swiper-button-next:active {
-    background:#FF6E30;;
+.swiper-button-prev,
+.swiper-button-next  {
+   color: rgba(255, 255, 255, 0.28);
 }
 
+.swiper-button-prev:active {
+    color:#FF6E30;
+}
+
+.swiper-button-next:active {
+    color:#FF6E30;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    
+    background-color: #FF6E30;
+    width: 44px;
+    height: 8px;
+    border-radius: 4px
+}    
 
 .section--become--email {
     width: 100%;
